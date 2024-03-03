@@ -1,0 +1,40 @@
+body{
+  background-color: rgb(10, 118, 118);
+}
+.cart {
+    text-align:center;
+    background-color: #e6f6ff;
+    padding:15px;
+  }
+.card
+{
+  text-align: center;
+  background-color: white;
+  width:140px;
+  border-radius: 9px;
+  padding: 16px;
+  margin: 15px;
+}
+.image {
+  height: 64px;
+  width: 64px;
+}
+.shop
+{
+  color: #616e7c;
+  font-family: "Roboto";
+  font-size: 12px;
+  font-weight: normal;
+}
+.price {
+  color: #323f4b;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 500;
+  text-align: left;
+}
+div img :hover
+{
+    filter: grayscale(1);
+    transform: scale(1.03);
+}
